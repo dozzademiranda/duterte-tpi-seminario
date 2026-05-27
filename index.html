@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu Principal</title>
+    <title>Menu de Slides - Seminário TPI</title>
     <style>
         * {
             margin: 0;
@@ -26,15 +26,27 @@
             border-radius: 12px;
             box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
             padding: 40px;
-            max-width: 500px;
+            max-width: 600px;
             width: 100%;
         }
 
-        h1 {
+        .header {
             text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h1 {
             color: #333;
-            margin-bottom: 30px;
-            font-size: 28px;
+            font-size: 26px;
+            margin-bottom: 12px;
+            line-height: 1.3;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.5;
+            font-weight: 300;
         }
 
         .menu {
@@ -60,6 +72,9 @@
             transition: all 0.3s ease;
             cursor: pointer;
             border: 2px solid transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .menu-item a:hover {
@@ -78,9 +93,17 @@
                 padding: 20px;
             }
 
+            .header {
+                margin-bottom: 30px;
+            }
+
             h1 {
-                font-size: 24px;
-                margin-bottom: 20px;
+                font-size: 22px;
+                margin-bottom: 10px;
+            }
+
+            .subtitle {
+                font-size: 14px;
             }
 
             .menu {
@@ -97,18 +120,21 @@
 </head>
 <body>
     <div class="container">
-        <h1>📋 Menu Principal</h1>
+        <div class="header">
+            <h1>🎯 Menu de Slides</h1>
+            <p class="subtitle">Teste as opções abaixo e ajude-nos a decidir detalhes sobre cada slide</p>
+        </div>
         <div class="menu">
-            <div class="menu-item"><a href="1.html">1</a></div>
-            <div class="menu-item"><a href="2.html">2</a></div>
-            <div class="menu-item"><a href="3.html">3</a></div>
-            <div class="menu-item"><a href="4.html">4</a></div>
-            <div class="menu-item"><a href="5.html">5</a></div>
-            <div class="menu-item"><a href="6.html">6</a></div>
-            <div class="menu-item"><a href="7.html">7</a></div>
-            <div class="menu-item"><a href="8.html">8</a></div>
-            <div class="menu-item"><a href="9.html">9</a></div>
-            <div class="menu-item"><a href="10.html">10</a></div>
+            <div class="menu-item"><a href="1.html">Slide 1</a></div>
+            <div class="menu-item"><a href="2.html">Slide 2</a></div>
+            <div class="menu-item"><a href="3.html">Slide 3</a></div>
+            <div class="menu-item"><a href="4.html">Slide 4</a></div>
+            <div class="menu-item"><a href="5.html">Slide 5</a></div>
+            <div class="menu-item"><a href="6.html">Slide 6</a></div>
+            <div class="menu-item"><a href="7.html">Slide 7</a></div>
+            <div class="menu-item"><a href="8.html">Slide 8</a></div>
+            <div class="menu-item"><a href="9.html">Slide 9</a></div>
+            <div class="menu-item"><a href="10.html">Slide 10</a></div>
         </div>
     </div>
 </body>
